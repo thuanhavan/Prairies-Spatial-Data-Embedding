@@ -1,0 +1,21 @@
+name: presto_embed
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - rasterio
+  - geopandas
+  - shapely
+  - scikit-learn
+  - matplotlib
+  - jupyterlab
+  - tqdm
+  - pip
+  - pip:
+      # CPU-only PyTorch
+      - torch
+      - torchvision
+      - torchaudio
